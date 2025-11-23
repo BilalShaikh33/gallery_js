@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+        img{
+            width: 100%;
+            padding: 20px;
+            border: 1px solid red;
+            border-radius: 10%;
+        }
+        button{
+            height: 40px;
+            width: 100px;
+            font-size: 20px;
+
+        }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <img id="imgShow"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/23/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg"
+        alt=""
+      />
+     
+      <button id="prevbut" onclick="prevImg()" style="display: none;" >Previous</button>
+      <button id="nexbut" onclick="nextImg()">Next</button>
+    </div>
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
